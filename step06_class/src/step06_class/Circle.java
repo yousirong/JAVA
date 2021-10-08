@@ -15,14 +15,14 @@ public class Circle {
 		circum =getCircum();
 	}
 	
-	//
+	//원의 면적 구하는 함수
 	double getArea() {
 		double area = radius * radius * pi;
 		return area;
 		
 	
 	}
-	
+	// 원의  둘레 구하는 함수
 	double getCircum() {
 		double circum =2 * radius * pi;
 		return circum;
