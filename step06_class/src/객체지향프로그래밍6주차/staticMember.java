@@ -24,7 +24,7 @@ class CurrencyConverter {
 public class staticMember {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("환율(1달러)>> ");;
+		System.out.print("환율(1달러)>> ");
 		double rate = scanner.nextDouble();
 		CurrencyConverter.setRate(rate); // 미국 달러 환율 설정
 		System.out.println("백만원은 $"+ CurrencyConverter.toDollar(1000000) + "입니다.");
@@ -33,3 +33,15 @@ public class staticMember {
 	}
 
 }
+/* final 클래스 - 클래스 상속 불가
+ * final class FinalClass {
+ * ....}
+ * class SubClass extends FinalClass {// 컴파일 오류. FinalClass 상속 불가
+ * ..... }
+ * final 메소드 - 오버라이딩 불가
+ * public class SuperClass {
+ * 	protected final int finalMethod {...}
+ * 
+ *  class SubClass extends SuperClass { // subClass가 SuperClass 상속
+ *  protected int finalMethod() {...} // 컴파일 오류, 오버라이딩 할 수 없음,
+ */

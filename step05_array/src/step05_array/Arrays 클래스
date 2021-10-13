@@ -1,0 +1,33 @@
+Arrays 클래스
+
+Arrays
+-배열 조작 기능을 가지고 있는 클래스 - 배열 복사, 항목 정렬, 항목검색 제공하는 정적 메소드
+
+리턴타입-----메소드 이름-------------------------설명
+int              binarySearch(배열, 찾는값)          전체 배열 항목에서 찾는값이 있는 인덱스 리턴
+타겟배열       copyOf(원본배열, 복사할길이)         원본배열의 0번 인데스에서 복사할 길이만큼 복사한 배열 리턴, 복사
+                                                                 길이는 원본배열의 길이보다 커도 되며, 타겟 배열의 길이가 된다.
+타겟배열       copyOfRange(원본배열,시작인덱스,끝인덱스)  원본배열의 시작인데스에서 끝인덱스까지 복사한 배열 리턴
+boolean      deepEquals(배열, 배열)               두 배열의 깊은 비교(중첩 배열의 항목까지 비교)
+boolean      equals(배열, 배열)                      얕은 비교(중첩 배열의 항목은 비교하지 않음)
+void           fill(배열, 값)                                전체 배열 항목에 동일한 값을 저장
+void           fill(배열, 시작인덱스, 끝인덱스, 값)    시작인덱스부터 끝인덱스까지의 항목에만 동일한 값을 저장
+void           sort(배열)                                  배열의 전체 항목을 오름차운으로 정렬
+
+배열의 복사
+Arrays.copyOf(원본배열, 복사할 길이)
+0 ~ (복사할 길이-1)까지 항목 복사
+복사할 길이는 원본 배열의 길이보다 커도 되면 타겟 배열의 길이
+
+char[] arr1 = {'J','A','V','A'};
+char[] arr2 = Arrays.copyOf(arr1, arr1.length);
+
+copyOfRange(원본배열, 시작인덱스, 끝 인덱스)
+시작 인덱스 ~ (끝 인덱스-1)까지 항목 복사
+char[] arr1 = {'J','A','V','A'};
+char[] arr2 = Arrays.copyOfRange(arr1, 1, 3);
+
+System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
+                             원본 배열       원본시작인덱스 타겟배열     타겟시작인덱스   복사개수
+
+                             
