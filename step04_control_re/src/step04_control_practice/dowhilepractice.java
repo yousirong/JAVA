@@ -20,10 +20,10 @@ public class dowhilepractice {
 			int user = sc.nextInt();
 			if(user ==result)
 			{
-				System.out.println("�¾ҽ��ϴ�.");
+				System.out.println("정답입니다.");
 				
 			}else {
-				System.out.println("Ʋ�Ƚ��ϴ�.");
+				System.out.println("틀린답입니다.");
 				
 				
 			}

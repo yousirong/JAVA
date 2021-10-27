@@ -45,7 +45,7 @@ public class whilepractice {
 			System.out.println(a[i]);
 		}
 		*/
-		System.out.println("3.369��");
+		System.out.println("3.369게임");
 
 	  int g=1;
 	   while(g<=100)
