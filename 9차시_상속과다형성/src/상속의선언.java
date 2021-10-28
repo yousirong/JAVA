@@ -1,4 +1,4 @@
-class Point {
+class Point1 {
 	private int x, y; // 한 점을 구성하는 x, y 좌표
 	public void set(int x, int y) {
 		this.x = x; this.y = y;
@@ -8,7 +8,7 @@ class Point {
 	}
 }
 // Point를 상속받은 ColorPoint 선언
-class ColorPoint extends Point { 
+class ColorPoint extends Point1 { 
 	private String color; // 점의 색
 	public void setColor(String color) {
 		this.color = color;
@@ -23,7 +23,7 @@ public class 상속의선언 {
 
 	public static void main(String[] args) {
 		
-		Point p = new Point(); // Point 객체 생성
+		Point1 p = new Point1(); // Point 객체 생성
 		p.set(1, 2); // Point 클래스의 set() 호출
 		p.showPoint();
 
