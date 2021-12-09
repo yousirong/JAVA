@@ -36,6 +36,6 @@ public class selection_sort {
 				System.out.print("\n" + "sorted list : ");
 				for(int i=0; i<list.length; i++)
 					System.out.print(list[i] + " "); // 배열에 저장된 정수 값을 출력
-			  }
+				
 			}
-	
+		}

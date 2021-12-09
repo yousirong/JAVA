@@ -36,9 +36,5 @@ System.out.println("1.구구단");
 		{
 			System.out.print(aaa.charAt(idx));
 		}
-		
-		
-		
 	}
-
 }

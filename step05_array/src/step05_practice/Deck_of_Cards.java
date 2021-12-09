@@ -19,6 +19,6 @@ public class Deck_of_Cards {
 			int temp = deck[i];
 			deck[index] = temp;
 		}
+		
 	}
-
 }

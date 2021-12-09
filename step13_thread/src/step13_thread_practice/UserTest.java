@@ -14,6 +14,9 @@ class Post {
 	int getlikeTotal() {
 		return liketotal;
 	}
+	String getlastlikedperson() {
+		return lastlikedperson;
+	}
 }
 
 class User extends Thread {
@@ -61,11 +64,11 @@ public class UserTest {
 				user.join();
 			}
 		}catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
-		System.out.println("마지막으로 누른 사람은 : "+post.getlikeTotal());
+		System.out.println("마지막으로 좋아요를 누른 사람은 : "+post.getlastlikedperson());
 	}
 
 }

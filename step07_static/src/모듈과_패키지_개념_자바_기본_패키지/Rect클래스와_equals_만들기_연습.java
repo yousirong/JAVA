@@ -31,6 +31,6 @@ public class Rect클래스와_equals_만들기_연습 {
 			System.out.println("a is equal to c");
 		if(b.equals(c))
 			System.out.println("b is equal to c");
+		
 	}
-
 }

@@ -8,6 +8,6 @@ public class StaticInitExample {
 		StaticInit s2 = new StaticInit();
 		System.out.println(s2);
 		System.out.println("main() 메서드 종료");
+		
 	}
-
 }

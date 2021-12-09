@@ -75,13 +75,8 @@ public class whilepractice {
 			   }
 			   g++;
 		   }
-	   
-	   
-	   
-	   
-	   }
-
 	}
+}
 	
 	
 

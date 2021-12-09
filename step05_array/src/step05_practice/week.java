@@ -23,6 +23,6 @@ public class week {
 		{
 			System.out.println((i+1)+": "+cnt[i]);
 		}
+		
 	}
-
 }

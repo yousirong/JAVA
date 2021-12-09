@@ -17,5 +17,6 @@ public class 비정방형배열 {
 				System.out.print(intArray[i][j]+" ");
 			System.out.println();
 		}
+		
 	}
 }

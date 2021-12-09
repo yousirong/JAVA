@@ -22,6 +22,6 @@ public class STPractice {
 		for(String key : treeMap.keySet()) {
 			System.out.println(key + "," + treeMap.get(key));
 		}
+		
 	}
-
 }

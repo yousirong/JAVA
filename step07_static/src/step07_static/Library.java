@@ -93,9 +93,8 @@ public class Library {
 			}
 		}
 		totalBook--; //전체 book의 갯수 1 감소
+		
 	}
-	
-	
 }
 	
 	

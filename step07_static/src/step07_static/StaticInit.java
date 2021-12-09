@@ -7,5 +7,6 @@ public class StaticInit {
 	}
 	public StaticInit() {
 		System.out.println("Constructor 호출됨.");
+		
 	}
 }

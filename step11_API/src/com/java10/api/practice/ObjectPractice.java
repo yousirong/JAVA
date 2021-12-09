@@ -48,6 +48,6 @@ public class ObjectPractice {
 			System.out.println(tree);
 		}
 		
+		
 	}
-
 }

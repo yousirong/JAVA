@@ -39,6 +39,6 @@ public class Theater {
 	    }
 		}while(user !=0);
 		sc.close();
+		
 	}
-
 }

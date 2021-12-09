@@ -63,9 +63,6 @@ public String toString() {
 
 	public void setAnniversary(LocalDate anniversary) {
 		this.anniversary = anniversary;
+		
 	}
-	
-	
-	
-   
 }

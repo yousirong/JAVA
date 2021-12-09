@@ -70,13 +70,5 @@ public class switchpractice {
 			mone1= "����";
 			break;
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-}
+	}
 }

@@ -29,6 +29,7 @@ public class java_lang_String메소드 {
 				boolean b = (4>3); // b는 true
 				System.out.println(Boolean.toString(b)); // true를 문자열 "true"로 변환
 				System.out.println(Boolean.parseBoolean("false")); // 문자열을 false로 변환
+				
 			}
 		}
 	

@@ -18,6 +18,6 @@ public class throw_dice {
 		for ( int i = 0 ; i < SIZE; i++) {
 			System.out.println(""+ (i + 1) + " \t" + freq[i]);
 		}
+		
 	}
-
 }

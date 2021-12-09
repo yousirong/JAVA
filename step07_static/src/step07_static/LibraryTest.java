@@ -13,6 +13,6 @@ public class LibraryTest {
 		library.checkBookOut("책1");
 		library.checkBookOut("책2");
 		System.out.println(library);
+		
 	}
-
 }

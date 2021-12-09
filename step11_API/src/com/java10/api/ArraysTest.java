@@ -112,6 +112,6 @@ public class ArraysTest {
 		for(Phone phone : phoneList) {
 			System.out.println(phone);
 		}
+		
 	}
-
 }

@@ -26,6 +26,7 @@ public class StringBufferClass {
 
 				sb.setLength(4); // 스트링 버퍼 내 문자열 길이 수정
 				System.out.println(sb);
+				
 			}
 		}
 	

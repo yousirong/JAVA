@@ -44,6 +44,6 @@ public class CalendarTest {
 		System.out.print(cal.get(Calendar.MINUTE)+"분");
 		System.out.print(cal.get(Calendar.SECOND)+"초");
 		
+		
 	}
-
 }

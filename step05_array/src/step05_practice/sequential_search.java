@@ -22,5 +22,6 @@ public class sequential_search {
 			     else
 			    	   System.out.println("" + value + " 값을 찾지 못하였습니다.");  
 			     scan.close();
-		     }
-}
+					
+				}
+			}

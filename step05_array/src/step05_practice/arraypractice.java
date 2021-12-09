@@ -89,5 +89,4 @@ public class arraypractice {
 		System.out.println("100존재 여부"+true);
 		
 	}
-
 }
